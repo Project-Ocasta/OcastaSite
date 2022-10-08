@@ -145,13 +145,13 @@ export default component$(() => {
           <input
             type="file"
             ref={inputFile}
-            onChange$={uploadProfilePicture}
+            onChange$={() => uploadProfilePicture()}
             class="hidden"
           />
           <img
             class="w-64 h-64 rounded-full m-auto cursor-pointer"
             src={state.photoURL}
-            onClick$={ProfileClick}
+            onClick$={() => ProfileClick()}
           />
           <div class="text-center mt-8 text-2xl text-OcastaHeaderText font-bold">
             {state.email}
@@ -163,19 +163,19 @@ export default component$(() => {
           </div>
           <button
             class="bg-PrimaryButton text-OcastaHeaderText font-bold py-2 px-4 rounded-md mt-2 mr-2"
-            onClick$={changeUsername}
+            onClick$={() => changeUsername()}
           >
             Change Username
           </button>
           <button
             class="bg-PrimaryButton text-OcastaHeaderText font-bold py-2 px-4 rounded-md mt-2 mr-2 ml-2"
-            onClick$={changeEmail}
+            onClick$={() => changeEmail()}
           >
             Change Email
           </button>
           <button
             class="bg-PrimaryButton text-OcastaHeaderText font-bold py-2 px-4 rounded-md mt-2 ml-2"
-            onClick$={changePassword}
+            onClick$={() => changePassword()}
           >
             Change Password
           </button>
@@ -185,14 +185,14 @@ export default component$(() => {
           </div>
           <button
             class="text-Alert font-bold py-2 px-4 rounded-md mt-2 outline border-1 border-Alert"
-            onClick$={signOutUser}
+            onClick$={() => signOutUser()}
           >
             Sign Out
           </button>
           <br />
           <button
             class="bg-Alert text-OcastaHeaderText font-bold py-2 px-4 rounded-md mt-2"
-            onClick$={deleteAccount}
+            onClick$={() => deleteAccount()}
           >
             Delete Account
           </button>

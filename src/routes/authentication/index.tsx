@@ -85,7 +85,7 @@ export default component$(() => {
           </div>
           <form
             class="w-full mt-10"
-            onSubmit$={handleSignup}
+            onSubmit$={() => handleSignup()}
             preventDefault:submit
           >
             <label class="text-OcastaHeaderText text-sm font-bold mb-1 justify-center flex">
@@ -136,7 +136,7 @@ export default component$(() => {
           </div>
           <form
             class="w-full mt-10"
-            onSubmit$={handleLogin}
+            onSubmit$={() => handleLogin()}
             preventDefault:submit
           >
             <label class="text-OcastaHeaderText text-sm font-bold mb-1 justify-center flex">
@@ -171,7 +171,7 @@ export default component$(() => {
           <br />
           <button
             class="rounded mt-6 py-2 px-3 text-OcastaHeaderText m-auto justify-center flex outline border border-OcastaHeaderText"
-            onClick$={handleGoogleAuth}
+            onClick$={() => handleGoogleAuth()}
           >
             <img src="/Google_Logo.svg" class="w-6 h-6" />
             <p class="ml-2"> Authenticate with Google </p>

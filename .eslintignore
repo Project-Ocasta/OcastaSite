@@ -31,3 +31,5 @@ tsconfig.tsbuildinfo
 vite.config.ts
 tailwind.config.js
 postcss.config.js
+env.d.ts
+.eslintrc.cjs
