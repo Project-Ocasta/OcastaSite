@@ -86,7 +86,7 @@ export default component$(() => {
           <form
             class="w-full mt-10"
             onSubmit$={() => handleSignup()}
-            preventDefault:submit
+            preventdefault:submit
           >
             <label class="text-OcastaHeaderText text-sm font-bold mb-1 justify-center flex">
               Email
@@ -137,7 +137,7 @@ export default component$(() => {
           <form
             class="w-full mt-10"
             onSubmit$={() => handleLogin()}
-            preventDefault:submit
+            preventdefault:submit
           >
             <label class="text-OcastaHeaderText text-sm font-bold mb-1 justify-center flex">
               Email
@@ -173,7 +173,7 @@ export default component$(() => {
             class="rounded mt-6 py-2 px-3 text-OcastaHeaderText m-auto justify-center flex outline border border-OcastaHeaderText"
             onClick$={() => handleGoogleAuth()}
           >
-            <img src="/Google_Logo.svg" class="w-6 h-6" />
+            <img src="/assets/Google_Logo.svg" class="w-6 h-6" />
             <p class="ml-2"> Authenticate with Google </p>
           </button>
         </div>

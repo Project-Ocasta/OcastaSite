@@ -6,7 +6,6 @@ import EnvironmentPlugin from "vite-plugin-environment";
 
 export default defineConfig(() => {
   return {
-    ssr: { target: "webworker", noExternal: true },
     plugins: [
       qwikCity(),
       qwikVite(),
@@ -21,5 +20,10 @@ export default defineConfig(() => {
         "MEASUREMENT_ID",
       ]),
     ],
+    preview: {
+      headers: {
+        "Cache-Control": "public, max-age=600",
+      },
+    },
   };
 });

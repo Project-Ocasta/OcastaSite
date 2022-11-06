@@ -14,14 +14,13 @@ export default component$(() => {
   });
   return (
     <header>
-      <img
-        src="/favicon.svg"
-        alt="logo"
-        class="w-10 mt-6 ml-6 float-left cursor-pointer"
-        onClick$={() => {
-          window.location.href = "/";
-        }}
-      />
+      <Link href="/">
+        <img
+          src="/icon.svg"
+          alt="logo"
+          class="w-10 mt-6 ml-6 float-left cursor-pointer"
+        />
+      </Link>
 
       <span>
         <Link

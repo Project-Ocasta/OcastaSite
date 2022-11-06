@@ -4,14 +4,9 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <footer>
-      <img
-        src="/favicon.svg"
-        alt="logo"
-        class="w-8 ml-6 cursor-pointer"
-        onClick$={() => {
-          window.location.href = "/";
-        }}
-      />
+      <Link href="/">
+        <img src="/icon.svg" alt="logo" class="w-8 ml-6 cursor-pointer" />
+      </Link>
       <div class="m-6 text-OcastaPlainText float-left">
         <span class="text-OcastaHeaderText">
           <Link href="/">Project Ocasta</Link>
