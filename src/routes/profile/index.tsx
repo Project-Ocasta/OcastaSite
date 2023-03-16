@@ -22,7 +22,7 @@ export default component$(() => {
   const state = useStore({
     displayName: "Loading...",
     email: "Loading...",
-    photoURL: "/favicon.svg",
+    photoURL: "/icon.svg",
   });
 
   const changeUsername = $(async () => {
