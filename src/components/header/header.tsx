@@ -30,10 +30,10 @@ export default component$(() => {
           {state.isLoggedIn ? "Profile" : "Sign Up"}
         </Link>
         <Link
-          class="text-OcastaPlainText text-lg rounded p-2 w-32 font-bold float-right mr-12 mt-6"
-          href="/teams"
+          class="text-OcastaPlainText text-lg text-center rounded p-2 w-32 font-bold float-right mr-6 mt-6"
+          href="https://github.com/Project-Ocasta"
         >
-          Teams
+          Github
         </Link>
       </span>
     </header>

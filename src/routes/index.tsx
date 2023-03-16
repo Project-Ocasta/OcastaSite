@@ -32,15 +32,15 @@ export default component$(() => {
       <span class="flex justify-center mb-12">
         <Link
           class="bg-PrimaryButton text-OcastaHeaderText text-center text-lg rounded p-4 w-48 font-bold m-2"
-          href="getstarted"
+          href="projects"
         >
-          Get Started
+          Our Projects
         </Link>
         <Link
           class="bg-SecondaryButton text-OcastaHeaderText text-center text-lg rounded p-4 w-48 font-bold m-2"
-          href="/locations"
+          href="mailto:contact@projectocasta.org"
         >
-          Our Locations
+          Contact Us
         </Link>
       </span>
       <video
@@ -50,43 +50,41 @@ export default component$(() => {
         style={{ width: "896px", height: "504px" }}
       />
       <div class="text-OcastaHeaderText text-5xl text-center font-bold mt-24">
-        Find people like you!
+        Making Tools for the Future
       </div>
       <div class="text-OcastaPlainText text-xl max-w-screen-sm m-auto text-center mt-5">
-        Each person is placed in a different group based on their skills and
-        interests. You will be able to work on large team projects while
-        contributing what you are best at.
+        Ocasta is here to make software that will change the world.
       </div>
       <div class="grid grid-cols-3 gap-4 mt-12 mb-28 max-w-6xl m-auto">
         <Tile
           src="/assets/feature-tile-icon-01.svg"
-          title="Work in Production"
-          text="Learning to do things in production is important for any future career. You will be able to work with other members to build a production ready project."
+          title="Our Philosophy"
+          text="All of our projects are made to acomplish a single goal. Nothing more. Nothing less. We believe that simplicity is the key to making the best software."
         />
         <Tile
           src="/assets/feature-tile-icon-02.svg"
           title="Web and Open Source"
-          text="Everything we do is done on the web. All our work is open source and accessible to everyone. Open source is a great way to learn new technologies and share your work with the world."
+          text="We believe that the web is the future and that open source is the best way to make it happen. All of our projects are open source to ensure user privacy and security and allow anyone to contribute."
         />
         <Tile
           src="/assets/feature-tile-icon-03.svg"
           title="Feedback"
-          text="Getting feedback is a great way to improve your skills as you will learn about new things that you didn't think about before! Using open-sourcing we can connect you to users all over the world!"
+          text="We are always looking for feedback from the community. If you have any ideas or suggestions for our projects, feel free to let us know using our email or social media."
         />
         <Tile
           src="/assets/feature-tile-icon-04.svg"
           title="Distribution and Collaboration"
-          text="Distributing work among other members and collaborating with people of different skill sets will give you the opportunity to create your vision."
+          text="We believe that the best way to make our projects better is to make them open source and allow collaboration. We are always looking for new people to join us in our efforts."
         />
         <Tile
           src="/assets/feature-tile-icon-05.svg"
-          title="Work at your Pace"
-          text="There will always be need for easy solutions and you can work up the ranks at your own speed."
+          title="Our Projects"
+          text="You can find all of our projects on our GitHub. We are always looking for new ideas and suggestions for new projects. If you have any ideas, feel free to let us know!"
         />
         <Tile
           src="/assets/feature-tile-icon-06.svg"
-          title="Find your Future"
-          text="If you aren't sure what you are best at still feel free to join us! We can try to find somthing for you! The more people the better!"
+          title="Our Team"
+          text="Its just me, the creator of Ocasta, working on these projects. Contributions are always welcome. If you would like to help, open a pull request on our GitHub!"
         />
       </div>
     </>
